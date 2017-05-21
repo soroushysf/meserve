@@ -12,12 +12,10 @@ var ApiAction = {
     });
   },
 
-  receiveRestaurants: function (data) {
-    AppDispatcher.dispatch({
-      actionType: RestaurantConstants.RESTAURANTS_RECEIVED,
-      restaurants: data
-    });
-  },
+
+
+
+
 
   receiveSingleRestaurant: function (data) {
     AppDispatcher.dispatch({
