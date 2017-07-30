@@ -1,0 +1,157 @@
+// Place all the styles related to the users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@media (max-width: 500px) {
+  .signin {
+    width: calc(100% - 40px) !important;
+    margin-top: 0 !important;
+  }
+}
+
+.user-panel {
+  float: right;
+  padding: 8px;
+}
+
+.user-panel .username {
+  font-size: 18px;
+  line-height: 14px;
+}
+
+.user-panel > a {
+  float: left;
+  padding: 10px 15px;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.user-panel .logout {
+  cursor: pointer;
+}
+
+// .user-panel > a:hover {
+//   color: rgb(136, 12, 36);
+// }
+
+.user-panel .logout:hover {
+  color: black;
+}
+
+.user-panel .signup {
+  background: #60b2d0;
+  color: rgb(245, 245, 245);
+  border-radius: 3px;
+  transition: background .25s ease-in-out;
+}
+
+.user-panel .signup:hover {
+  background: #3798bc
+
+}
+.signin {
+  box-sizing: content-box;
+  width: 460px;
+  padding: 20px;
+  background: white;
+  margin: auto;
+  margin-top: 90px;
+}
+
+.errors {
+  // text-align: center;
+  color: #b8222d;
+  position: absolute;
+  width: 300px;
+  top: 14px;
+  left: 100px;
+  z-index: 30;
+}
+
+.errors-first {
+  // text-align: center;
+  color: #b8222d;
+  position: absolute;
+  width: 300px;
+  top: 34px;
+  left: 100px;
+  z-index: 30;
+}
+
+
+
+.signin .hidden {
+  display: none;
+}
+
+.signin img {
+  width: 50%;
+  height: auto;
+  display: block;
+}
+
+.signin a {
+  width: 193px;
+  height: 48px;
+  background: url("https://s3.amazonaws.com/table-pictures/google-web/1x/btn_google%2B_signin_dark_normal_web.png");
+  background-size: cover;
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+}
+
+.signin a:hover {
+  background: url("https://s3.amazonaws.com/table-pictures/google-web/1x/btn_google%2B_signin_dark_pressed_web.png");
+}
+
+.signin h1 {
+  font-size: 24px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(0,0,0,.12);
+}
+
+.signin input {
+  box-sizing: border-box;
+  width: 100%;
+  display: block;
+  padding: 15px;
+  border: 1px solid rgba(0,0,0,.12);
+  border-radius: 3px;
+  margin: 20px 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.signin button {
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 15px;
+  font-size: 15px;
+  border: 0 !important;
+  cursor: pointer;
+  background: #da3743;
+  color: white;
+  transition: background .25s ease-in-out;
+  border-radius: 3px;
+  width: 100%;
+}
+
+.signin button:hover {
+  background: #b8222d;
+}
+
+.signin .guest button {
+  background: rgb(81, 160, 194);
+  margin: auto;
+  margin-top: 20px;
+}
+
+.signin .guest button:hover {
+  background: rgb(43, 123, 157);
+}
+
+.signin label {
+  position: relative;
+}

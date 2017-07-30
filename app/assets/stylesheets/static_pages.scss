@@ -1,0 +1,105 @@
+// Place all the styles related to the static_pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,300);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700);
+
+
+@media (max-width: 765px) {
+  #content {
+    padding: 0 !important;
+  }
+
+}
+
+
+html, body, h2, h3, h4, h5, h6, header,
+h1, img, a, div, ul, li, button, input, select {
+  border: 0;
+  padding: 0;
+  margin: 0;
+
+  text-decoration: none;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  box-sizing: inherit;
+}
+
+*:focus {
+    outline: none;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  background: #f7f7f7;
+  color: #333;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.group::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+header {
+  border-bottom: 1px solid #eee;
+  background: white;
+}
+
+.nav-logo {
+  float: left;
+  padding-right: 20px;
+  margin: 10px 20px;
+  border-right: 1px solid #eee;
+}
+
+.header-nav {
+  margin: 0 50px;
+  max-width: 100%;
+  margin: auto;
+}
+
+.logo {
+  vertical-align: middle;
+  // margin-top: 10px;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background: rgb(208, 74, 74);
+  border-radius: 50%;
+}
+
+.logo-text {
+  vertical-align: middle;
+  display: inline-block;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 0 10px;
+}
+
+#content {
+  padding: 0 50px;
+  max-width: 1400px;
+  margin: auto;
+  margin-bottom: 100px;
+  background: #f7f7f7;
+}
+
+button {
+  font-family: 'Open Sans';
+}
+
+
+@media (max-width: 370px) {
+  .nav-logo {
+    padding-right: 5px !important;
+    margin-right: 7px;
+  }
+}

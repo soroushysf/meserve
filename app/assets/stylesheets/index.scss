@@ -1,0 +1,129 @@
+@media (min-width: 766px) {
+  .city-index-welcome {
+    padding: 20px 20px 20px 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .city {
+    width: 100% !important;
+    height: 260px;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .city h2 {
+    line-height: 250px;
+  }
+
+  .city .count {
+    margin-top: -110px;
+  }
+
+  .city-index-welcome h1 {
+    font-size: 28px !important;
+    text-align: center;
+  }
+
+  .city-index-welcome h2 {
+    padding-top: 10px;
+    font-size: 21px !important;
+    text-align: center;
+
+  }
+}
+.city-index-welcome {
+  background: white;
+  margin-bottom: 20px;
+  padding: 20px 20px 20px 20px;
+}
+
+.city-index-welcome h1 {
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.city-index-welcome h2 {
+  font-size: 24px;
+}
+
+.city-grid-container {
+  background: white;
+}
+
+.city-grid-container > h2 {
+  padding: 20px;
+  font-size: 28px;
+  margin-top: 20px;
+}
+
+
+.city {
+  display: block;
+  box-sizing: border-box;
+  float: left;
+  width: 50%;
+  text-align: center;
+  padding: 10% 0;
+  text-shadow: #262626 2px 0 7px;
+  background: white;
+  font-weight: 300;
+}
+
+.city-overlay {
+  background:rgba(0,0,0,0.6);
+  opacity:1;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+
+.city-overlay:hover {
+  opacity:0.85;
+}
+
+.city h2 {
+  font-size: 36px;
+  color: white;
+}
+
+.city .count {
+  font-size: 20px;
+  color: white;
+}
+
+.NewYork {
+  background-image: image-url("city_images/ny1.jpg");
+  background-size: cover;
+}
+
+.SanFrancisco {
+  background-image: image-url("city_images/sf1.jpg");
+  background-size: cover;
+}
+
+.Seattle {
+  background-image: image-url("city_images/st1.jpg");
+  background-size: cover;
+}
+
+.Boston {
+  background-image: image-url("city_images/ny3.jpg");
+  background-size: cover;
+}
+
+.Chicago {
+  background-image: image-url("city_images/ch1.jpg");
+  background-size: cover;
+}
+
+.bg1 {
+  background-image: image-url('fancy-plate1.jpg') !important;
+}
+
+.bg2 {
+  background-image: image-url('fancy-plate2.jpg') !important;
+}
+
+.bg3 {
+  background-image: image-url('fancy-plate4.jpg') !important;
+}

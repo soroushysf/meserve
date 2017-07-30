@@ -1,0 +1,76 @@
+@media (max-width: 600px) {
+  .restaurant-item-photo {
+    width: 60px !important;
+    height: 60px !important;
+  }
+
+  .restaurant-item-details h3 {
+    font-size: 18px !important;
+    margin: 4px 0 !important;
+  }
+
+  .restaurant-item {
+    margin-left: 0 !important;
+  }
+
+  .restaurant-page {
+    padding: 0 !important;
+  }
+}
+.restaurant-item {
+  padding: 20px 20px 20px 0;
+  margin-left: 20px;
+  border-bottom: 1px solid #eee;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+
+.restaurant-item:hover {
+  opacity: 0.8;
+  background: #fffcfc;
+}
+
+.restaurant-item-photo {
+  width: 80px;
+  height: 80px;
+  float: left;
+  border-radius: 7%;
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+.restaurant-item-details {
+  box-sizing: content-box;
+  float: left;
+  width: auto;
+}
+
+.restaurant-item-address {
+  color: grey;
+  font-size: 14px;
+}
+
+.restaurant-item-details h3 {
+  font-size: 24px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.price {
+  color: #ccc;
+  float: right;
+  font-size: 15px;
+}
+
+.price .selected {
+  color: #333;
+}
+
+.restaurant-list-container {
+  padding: 20px 0;
+}
+
+.restaurant-count {
+  font-size: 24px;
+  padding: 0 20px;
+}
